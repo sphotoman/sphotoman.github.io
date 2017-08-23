@@ -1,0 +1,118 @@
+body{
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+div.container {
+	background-image: url("../images/diamond_upholstery_@2X.png");
+	margin-top: 50px;
+
+	border-style: solid;
+	border-top-width: 3px;
+	border-color: gray;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+#header{
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	font: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	padding: 8px;
+	margin-left: 18px;
+	margin-top: -47px;	
+}
+
+#nav{
+	float: right;
+	margin-top: -40px;
+	margin-right: 150px;	
+}
+#main-content, #bio-image, #connect-sidebar {
+	float: left;
+}
+
+#main-content{
+	border: solid;
+	border-width: 2px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	width:550px;
+	clear: left;
+	padding: 10px;
+	margin: 15px;
+
+}
+
+#bio-image{
+	width: 150px; 
+	height: 150px;
+	padding-right: 8px;
+}
+#connect-sidebar{
+	
+	width: 270px;
+	float: left;
+	padding: 5px;
+
+	border: solid;
+	border-width: 2px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 10px;
+	margin: 15px;
+
+
+}	
+
+footer{
+	background-color: #666666;
+	text-align: center;
+	clear: left;
+	
+	padding: 10px;	
+	border-top: solid;
+	border-width: 6px;
+	border-color: #4aaaa5;
+
+
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+h1{
+	font-size: 28px;
+	color: white;
+
+}
+h2{
+	font-size: 24px;
+	color: #4aaaa5;
+
+}
+h3{
+	font-size: 18px;
+	color: #4aaaa5;
+}
+p {
+	line-height: 150%;
+	text-indent: 25px;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+    color: #4aaaa5;
+}
